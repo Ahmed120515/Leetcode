@@ -1,3 +1,4 @@
+#Two sums 
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -10,4 +11,5 @@ class Solution(object):
                 if nums[i] + nums[j] == target:
                     self = [i,j]
                     return self
-        
+
+
